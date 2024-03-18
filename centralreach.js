@@ -1,6 +1,7 @@
 window.onload = function() {
     var button = document.getElementById('idSIButton9');
     button.addEventListener('click', function() {
+        console.log("click");
         // Change the logo
         var logo = document.querySelector('.logo');
         logo.src = 'https://aadcdn.msauthimages.net/dbd5a2dd-pl-xoxqovf13eybcxrrfjtkjtq20jiywie3esz0uexi/logintenantbranding/0/bannerlogo?ts=637878922966391152';
